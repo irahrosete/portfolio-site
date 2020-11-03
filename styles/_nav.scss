@@ -1,0 +1,18 @@
+.nav-header {
+    background-color: #3f4244;
+    height: 10vh;
+    padding: 2.5vh 2vw 2.5vh 2vw;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.nav-header__logo {
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+}
+
+.nav-header__socials {
+    position: relative;
+    display: inline-block;
+    float: right;
+}

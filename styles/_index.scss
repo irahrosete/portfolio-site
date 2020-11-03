@@ -1,0 +1,63 @@
+.hero {
+    background-color: #3f4244;
+    color: #ffffff;
+    height: 85vh;
+    width: 96vw;
+    font-family: 'Rajdhani', sans-serif;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr max-content max-content 0.2fr;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+}
+
+.hero-header {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.hero-p {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.hero-image {
+    grid-column: 5 / 6;
+    grid-row: 2 / 5;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// responsove design for tablets
+@media only screen and (min-width: 600px) {
+    .hero-header {
+        font-size: 5rem;
+    }
+    .hero-p {
+        font-size: 2rem;
+    }
+}
+
+// responsive design for desktop
+@media only screen and (min-width: 835px) {
+    .hero-header {
+        font-size: 7.5rem;
+    }
+    .hero-p {
+        font-size: 3rem;
+    }
+    .hero-image {
+        height: 800px;
+        width: 627px;
+    }
+}
