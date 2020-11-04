@@ -143,6 +143,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(0 0 0.85rem #0f0f0f);
 }
 
 @media only screen and (min-width: 600px) {
