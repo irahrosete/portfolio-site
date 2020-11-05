@@ -1,5 +1,4 @@
 .nav-header {
-    background-color: #3f4244;
     height: 10vh;
     padding: 2.5vh 3vw 2.5vh 3vw;
     font-family: 'Rajdhani', sans-serif;
@@ -112,7 +111,7 @@
 }
 
 // responsove design for tablets
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: $tablet-size) {
     .nav-header__logo {
         height: 60px;
         width: 60px;
@@ -131,7 +130,7 @@
 }
 
 // responsive design for desktop
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: $desktop-size) {
     .nav-header__logo {
         height: 70px;
         width: 70px;
