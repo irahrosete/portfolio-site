@@ -5,16 +5,20 @@
     font-family: 'Rajdhani', sans-serif;
 }
 .nav-header__logo {
-    height: 70px;
-    width: 70px;
-    padding: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 0px 5px;
 }
 .nav-header__socials {
     position: relative;
-    display: inline-block;
+    display: block;
     float: right;
+    padding-top: 10px;
 }
-
+.github, .twitter, .linkedin, .instagram {
+    width: 36px;
+    height: 36px;
+}
 
 // hamburger menu
 .menu-toggle {
@@ -59,20 +63,16 @@
 .menu-toggle .toggle:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background-color: #3f4244;
 }
-
 // 2- this hides the middle slice with subtle effect.
 .menu-toggle .toggle:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0) scale(0.2, 0.2);
 }
-
 // 3- this rotates the last slice to the other direction.
 .menu-toggle .toggle:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
-
 // 4- this fixes the origin points and adds some transition
 .menu-toggle {
     span {
@@ -92,9 +92,8 @@
 .menu {
     position: absolute;
     top: 15px;
-    margin: -110px 0 0 -60px;
-    padding: 50px;
-    padding-top: 135px;
+    margin: 2.5vh 0 0 -60px;
+    padding: 20px 50px;
     background-color: #ededed;
     opacity: 0.90;
     list-style-type: none;
@@ -107,13 +106,21 @@
     }
 }
 
-// this slides the menu box from left to appear when hidden checkbox is ticked.
+// this slides the menu box in from left to appear when hidden checkbox is ticked.
 .menu-toggle .toggle:checked ~ ul {
     transform: none;
 }
 
 // responsove design for tablets
 @media only screen and (min-width: 600px) {
+    .nav-header__logo {
+        height: 60px;
+        width: 60px;
+    }
+    .github, .twitter, .linkedin, .instagram {
+        width: 42px;
+        height: 42px;
+    }
     .menu {
         width: 130px;
         li {
@@ -123,8 +130,16 @@
     }
 }
 
-// responsive design for tablets
+// responsive design for desktop
 @media only screen and (min-width: 835px) {
+    .nav-header__logo {
+        height: 70px;
+        width: 70px;
+    }
+    .github, .twitter, .linkedin, .instagram {
+        width: 48px;
+        height: 48px;
+    }
     .menu {
         width: 180px;
         left: -30px;
