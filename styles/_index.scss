@@ -1,6 +1,6 @@
 $tablet-size: 600px;
-$desktop-size: 835px;
-$large-screen-size: 1280px;
+$medium-screen-size: 1024px;
+$large-screen-size: 1300px;
 
 body {
     background-color: #3f4244;
@@ -61,7 +61,7 @@ body {
 }
 
 // responsive design for desktop
-@media only screen and (min-width: $desktop-size) {
+@media only screen and (min-width: $medium-screen-size) {
     .hero-header {
         font-size: 7.5rem;
     }
