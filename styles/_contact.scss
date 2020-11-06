@@ -1,22 +1,18 @@
-.contact-content {
-    margin: 3vh 5vw;
-}
 .contact {
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-.contact h1 {
-    display: flex;
-    justify-content: center;
+    margin: 3vh 10vw;
+    h1 {
+        text-align: center;
+    }
 }
 .contact-p p {
     display: flex;
+    box-sizing: border-box;
     text-align: center;
     background-color: #ededed;
     border-radius: 6px;
     border-top: 6px solid #5888b4;
     color: #3f4244;
-    padding: 2vh 12vw;
+    padding: 10px;
 }
 
 .contact-form {
@@ -30,7 +26,7 @@
     }
     input, textarea {
         border-radius: 6px;
-        padding: 1vw;
+        padding: 5px;
     }
 }
 
@@ -39,32 +35,104 @@
     color: #ffffff;
     cursor: pointer;
     border-radius: 6px;
+    box-sizing: border-box;
     border: none;
     padding: 0.5vh;
     display: inline-block;
     width: 130px;
     align-self: center;
+    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
 }
 .submit-button:hover {
     background-color: #ededed;
-    color: #3f4244;
+    color: #5888b4;
     font-weight: 600;
+    box-sizing: border-box;
 }
 .submit-button:active {
     transform: translateY(1.5px);
 }
 
-
-
-
 @media only screen and (min-width: $tablet-size) {
+    .page-title {
+        font-size: 28px;
+    }
     .contact-content {
         display: flex;
-        align-items: center;
-        width: 70vw;
+        font-size: 1.2rem;
+    }
+   .contact-container {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .contact-p p {
+        display: flex;
+        width: 60vw;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .submit-button {
+        width: 150px;
     }
 }
 
 @media only screen and (min-width: $desktop-size) {
+    .page-title {
+        font-size: 32px;
+    }
+    .contact {
+        margin: 3vh 5vw;
+    }
+    .contact-content {
+        display: flex;
+        font-size: 1.5rem;
+    }
+   .contact-container {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
 
+    .contact-p p {
+        display: flex;
+        text-align: center;
+        width: 50vw;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    .submit-button {
+        width: 170px;
+    }
+}
+
+@media only screen and (min-width: $large-screen-size) {
+    .page-title {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .contact {
+        margin: 3vh 5vw;
+    }
+    .contact-content {
+        display: flex;
+        font-size: 1.5rem;
+    }
+   .contact-container {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .contact-p p {
+        display: flex;
+        text-align: center;
+        width: 35vw;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    .submit-button {
+        width: 170px;
+    }
 }

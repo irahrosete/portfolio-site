@@ -36,31 +36,37 @@
         </section>
     </nav>
     <section class="contact-content">
-        <div class="contact">
-            <h1>Get in touch</h1>
-            <div class="contact-p">
-                <p>I'm always looking to collaborate with open-minded people. Feel free to drop me a line.</p>
+        <div class="contact-container"></div>
+        <div class="contact-container">
+            <div class="contact">
+                <h1>Get in touch</h1>
+                <div class="contact-p">
+                    <p>I'm always looking to collaborate with open-minded people. Feel free to drop me a line.</p>
+                </div>
+                <div class="form-container">
+                    <form class="contact-form">
+                        <div class="contact-name">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" placeholder="Type your name here"></input>
+                        </div>
+                        <div class="contact-email">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder="And your email">
+                        </div>
+                        <div class="contact-message">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" rows="3" placeholder="OK. I'm all ears"></textarea>
+                        </div>
+                        <div class="contact-submit">
+                            <button class="submit-button">
+                                SEND MESSAGE
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <form class="contact-form">
-                <div class="contact-name">
-                    <label for="name">NAME</label>
-                    <input type="text" id="name" placeholder="Type your name here"></input>
-                </div>
-                <div class="contact-email">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" placeholder="Your email">
-                </div>
-                <div class="contact-message">
-                    <label for="message">MESSAGE</label>
-                    <textarea id="message" rows="3" placeholder="I'm all ears"></textarea>
-                </div>
-                <div class="contact-submit">
-                    <button class="submit-button">
-                        SEND MESSAGE
-                    </button>
-                </div>
-            </form>
         </div>
+        <div class="contact-container"></div>
     </section>
 </body>
 </html>
