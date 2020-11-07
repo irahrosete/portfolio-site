@@ -2,6 +2,13 @@
     height: 10vh;
     padding: 2.5vh 3vw 2.5vh 3vw;
     font-family: 'Rajdhani', sans-serif;
+    position: fixed;
+    z-index: 1;
+    background-color: #3f4244;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 .nav-header__logo {
     height: 50px;
@@ -17,6 +24,11 @@
 .github, .twitter, .linkedin, .instagram {
     width: 36px;
     height: 36px;
+}
+.page-title {
+    display: inline;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 // hamburger menu
@@ -112,7 +124,7 @@
 
 @media only screen and (min-width: $tablet-size) {
     .page-title {
-        font-size: 28px;
+        font-size: 2.5rem;
     }
     .nav-header__logo {
     height: 60px;
@@ -133,7 +145,7 @@
 
 @media only screen and (min-width: $medium-screen-size) {
     .page-title {
-        font-size: 32px;
+        font-size: 3rem;
     }
     .nav-header__logo {
         height: 70px;

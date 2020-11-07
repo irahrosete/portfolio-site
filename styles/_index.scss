@@ -7,10 +7,6 @@ body {
     color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
 }
-.page-title {
-    display: inline;
-    font-size: 1.5rem;
-}
 
 .hero {
     height: 85vh;
@@ -20,6 +16,7 @@ body {
     display: grid;
     grid-template-columns: 0.2fr 0.2fr 0.2fr max-content max-content 0.2fr;
     grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+    margin-top: 15vh;
 }
 
 .hero-header {
@@ -52,7 +49,7 @@ body {
 
 @media only screen and (min-width: $tablet-size) {
     .hero-header {
-        font-size: 5rem;
+        font-size: 6rem;
     }
     .hero-p {
         font-size: 2rem;

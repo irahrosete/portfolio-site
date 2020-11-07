@@ -1,5 +1,5 @@
 .blog {
-    margin-top: 3vh;
+    margin-top: 20vh;
 }
 .blog-card-wrapper {
     display: flex;
@@ -58,6 +58,7 @@
     .blog-card {
         width: 75vw;
         height: 600px;
+        box-shadow: 7.5px 7.5px 7.5px #888888;
     }
     .blog-card__image {
         width: 75vw;
