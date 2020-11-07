@@ -2,9 +2,10 @@
     margin-top: 20vh;
 }
 .contact {
-    margin: 3vh 10vw;
+    margin: 0 10vw;
     h1 {
         text-align: center;
+        margin: 0;
     }
 }
 .contact-p p {
@@ -80,7 +81,7 @@
 
 @media only screen and (min-width: $medium-screen-size) {
     .contact {
-        margin: 3vh 5vw;
+        margin: 0 5vw;
     }
     .contact-content {
         display: flex;

@@ -277,10 +277,11 @@ body {
 }
 
 .contact {
-  margin: 3vh 10vw;
+  margin: 0 10vw;
 }
 .contact h1 {
   text-align: center;
+  margin: 0;
 }
 
 .contact-p p {
@@ -359,7 +360,7 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .contact {
-    margin: 3vh 5vw;
+    margin: 0 5vw;
   }
 
   .contact-content {
