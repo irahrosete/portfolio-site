@@ -1,5 +1,6 @@
 .blog {
     margin-top: 20vh;
+    margin-bottom: 10vh;
 }
 .blog-card-wrapper {
     display: flex;
@@ -40,19 +41,80 @@
 }
 .blog-card__link {
     font-weight: 600;
-    padding: 5px;
+    padding: 0.5vh;
     border-radius: 6px;
-    width: 150px;
+    width: 130px;
     text-transform: uppercase;
+    background-color: #5888b4;
+    color: #ffffff;
+    border: none;
     cursor: pointer;
     filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+}
+.blog-card__link:hover {
+    background-color: #ededed;
+    color: #5888b4;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.blog-link:visited, .blog-link:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.blog-link:visited:hover {
+    text-decoration: none;
+    color: #3f4244;
 }
 .blog-card__link:active {
     transform: translateY(1.5px);
 }
+.blog-entry {
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    figure {
+        margin: 1vh 0;
+    }
+}
+.back-to-blog {
+    font-weight: 600;
+    padding: 0.5vh;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background-color: #5888b4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+
+}
+.back-to-blog:hover {
+    background-color: #ededed;
+    color: #5888b4;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.back-to-blog a:visited, .back-to-blog a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.back-to-blog a:visited:hover {
+    text-decoration: none;
+    color: #3f4244;
+}
+.back-to-blog:active {
+    transform: translateY(1.5px);
+}
+
 
 @media only screen and (min-width: $tablet-size) {
-    .blog {
+    .blog, .blog-entry {
         font-size: 1.25rem;
     }
     .blog-card {
@@ -102,5 +164,18 @@
     }
     .blog-card__description {
         margin-bottom: 2.5rem;
+    }
+    .blog-entry {
+        font-size: 1.5rem;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        img {
+            width: 1000px;
+            height: auto;
+            position: relative;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 20px;
+        }
     }
 }
