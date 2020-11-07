@@ -44,10 +44,15 @@ body {
 }
 
 footer {
-  margin-right: 5vw;
-  margin-bottom: 10px;
-  float: right;
   font-size: 0.75rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: end;
+  width: 100%;
+  padding: 5px 5px;
+  background-color: #ededed;
+  color: #3f4244;
 }
 
 @media only screen and (min-width: 600px) {
@@ -60,8 +65,6 @@ footer {
   }
 
   footer {
-    margin-right: 5vw;
-    margin-bottom: 15px;
     font-size: 0.85rem;
   }
 }
@@ -80,8 +83,6 @@ footer {
   }
 
   footer {
-    margin-right: 3vw;
-    margin-bottom: 20px;
     font-size: 1rem;
   }
 }
@@ -285,11 +286,11 @@ footer {
   .about {
     font-size: 1.5rem;
     display: inline-block;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
   }
   .about img {
-    width: 600px;
+    width: 480px;
     display: relative;
     float: left;
     margin: 0 30px 20px 0;
