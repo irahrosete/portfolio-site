@@ -258,18 +258,28 @@ body {
   .about {
     font-size: 1.25rem;
   }
+  .about img {
+    width: 80vw;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .about {
     font-size: 1.5rem;
     display: inline-block;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   .about img {
+    width: 600px;
     display: relative;
     float: left;
     margin: 0 30px 20px 0;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 .contact-content {
@@ -484,7 +494,7 @@ body {
 }
 
 .blog-entry {
-  margin: 20vh 5vw 10vh;
+  margin: 20vh 10vw 10vh;
 }
 .blog-entry img {
   width: 100%;
