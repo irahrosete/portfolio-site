@@ -110,11 +110,13 @@
     transform: none;
 }
 
-// responsove design for tablets
 @media only screen and (min-width: $tablet-size) {
+    .page-title {
+        font-size: 28px;
+    }
     .nav-header__logo {
-        height: 60px;
-        width: 60px;
+    height: 60px;
+    width: 60px;
     }
     .github, .twitter, .linkedin, .instagram {
         width: 42px;
@@ -129,8 +131,10 @@
     }
 }
 
-// responsive design for desktop
 @media only screen and (min-width: $medium-screen-size) {
+    .page-title {
+        font-size: 32px;
+    }
     .nav-header__logo {
         height: 70px;
         width: 70px;

@@ -177,6 +177,10 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+  .page-title {
+    font-size: 28px;
+  }
+
   .nav-header__logo {
     height: 60px;
     width: 60px;
@@ -196,6 +200,10 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .page-title {
+    font-size: 32px;
+  }
+
   .nav-header__logo {
     height: 70px;
     width: 70px;
@@ -230,7 +238,7 @@ body {
   border-radius: 6px;
   border-top: 6px solid #5888b4;
   color: #3f4244;
-  padding: 10px;
+  padding: 15px;
 }
 
 .contact-form {
@@ -274,10 +282,6 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-  .page-title {
-    font-size: 28px;
-  }
-
   .contact-content {
     display: flex;
     font-size: 1.2rem;
@@ -301,10 +305,6 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .page-title {
-    font-size: 32px;
-  }
-
   .contact {
     margin: 3vh 5vw;
   }
@@ -332,37 +332,60 @@ body {
     width: 170px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .page-title {
-    font-size: 32px;
-    font-weight: 600;
-  }
-
-  .contact {
-    margin: 3vh 5vw;
-  }
-
-  .contact-content {
-    display: flex;
-    font-size: 1.5rem;
-  }
-
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-  }
-
+@media only screen and (min-width: 1300px) {
   .contact-p p {
-    display: flex;
-    text-align: center;
     width: 35vw;
-    box-sizing: border-box;
-    padding: 30px;
   }
+}
+.blog-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
 
-  .submit-button {
-    width: 170px;
+.blog-card {
+  width: 350px;
+  height: 500px;
+  border: #888888 solid 1px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.blog-card__image {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-bottom: #888888 solid 1px;
+}
+
+.blog-card__text {
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.blog-card__title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.blog-card__link {
+  font-weight: 600;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .blog {
+    margin: 0 15vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 

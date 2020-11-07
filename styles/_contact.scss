@@ -12,7 +12,7 @@
     border-radius: 6px;
     border-top: 6px solid #5888b4;
     color: #3f4244;
-    padding: 10px;
+    padding: 15px;
 }
 
 .contact-form {
@@ -54,9 +54,6 @@
 }
 
 @media only screen and (min-width: $tablet-size) {
-    .page-title {
-        font-size: 28px;
-    }
     .contact-content {
         display: flex;
         font-size: 1.2rem;
@@ -79,9 +76,6 @@
 }
 
 @media only screen and (min-width: $medium-screen-size) {
-    .page-title {
-        font-size: 32px;
-    }
     .contact {
         margin: 3vh 5vw;
     }
@@ -108,31 +102,7 @@
 }
 
 @media only screen and (min-width: $large-screen-size) {
-    .page-title {
-        font-size: 32px;
-        font-weight: 600;
-    }
-    .contact {
-        margin: 3vh 5vw;
-    }
-    .contact-content {
-        display: flex;
-        font-size: 1.5rem;
-    }
-   .contact-container {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-    }
-
     .contact-p p {
-        display: flex;
-        text-align: center;
         width: 35vw;
-        box-sizing: border-box;
-        padding: 30px;
-    }
-    .submit-button {
-        width: 170px;
     }
 }
