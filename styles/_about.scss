@@ -1,0 +1,43 @@
+.about {
+    margin: 20vh 10vw 10vh;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 3vh;
+    }
+    img {
+        width: 320px;
+        height: auto;
+        box-sizing: border-box;
+        border: #888888 solid 1px;
+        align-self: center;
+        box-shadow: 5px 5px 5px #888888;
+        margin-bottom: 3vh;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: $tablet-size) {
+    .about {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: $medium-screen-size) {
+    .about {
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        img {
+            display: relative;
+            float: left;
+            margin: 0 30px 20px 0;
+        }
+    }
+
+}
