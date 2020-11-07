@@ -13,7 +13,7 @@
         box-sizing: border-box;
         border: #888888 solid 1px;
         align-self: center;
-        box-shadow: 5px 5px 5px #888888;
+        filter: drop-shadow(0 0 0.85rem #0f0f0f);
         margin-bottom: 3vh;
     }
     p {
