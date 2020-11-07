@@ -337,6 +337,10 @@ body {
     width: 35vw;
   }
 }
+.blog {
+  margin-top: 3vh;
+}
+
 .blog-card-wrapper {
   display: flex;
   flex-direction: column;
@@ -345,14 +349,14 @@ body {
 }
 
 .blog-card {
-  width: 350px;
+  width: 75vw;
   height: 500px;
   border: #888888 solid 1px;
   box-shadow: 5px 5px 5px #888888;
 }
 
 .blog-card__image {
-  width: 350px;
+  width: 75vw;
   height: 200px;
   object-fit: cover;
   box-sizing: border-box;
@@ -360,7 +364,7 @@ body {
 }
 
 .blog-card__text {
-  width: 350px;
+  width: 75vw;
   height: 300px;
   padding: 20px;
   display: flex;
@@ -369,23 +373,90 @@ body {
   justify-content: space-between;
 }
 
-.blog-card__title {
-  font-weight: 600;
+.blog-card__title h1 {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  display: inline;
+  font-size: 1.25rem;
+}
+
+.blog-card__description {
+  overflow: hidden;
+  margin-bottom: 1.5rem;
 }
 
 .blog-card__link {
   font-weight: 600;
   padding: 5px;
+  border-radius: 6px;
+  width: 150px;
+  text-transform: uppercase;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 1.5px #0f0f0f);
 }
 
+.blog-card__link:active {
+  transform: translateY(1.5px);
+}
+
+@media only screen and (min-width: 600px) {
+  .blog {
+    font-size: 1.25rem;
+  }
+
+  .blog-card {
+    width: 75vw;
+    height: 600px;
+  }
+
+  .blog-card__image {
+    width: 75vw;
+    height: 300px;
+  }
+
+  .blog-card__text {
+    width: 75vw;
+    height: 300px;
+  }
+
+  .blog-card__title h1 {
+    font-size: 1.75rem;
+  }
+
+  .blog-card__description {
+    margin-bottom: 2.25rem;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .blog {
-    margin: 0 15vw;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .blog-card {
+    width: 750px;
+    height: 800px;
+  }
+
+  .blog-card__image {
+    width: 750px;
+    height: 400px;
+  }
+
+  .blog-card__text {
+    width: 750px;
+    height: 400px;
+  }
+
+  .blog-card__title h1 {
+    font-size: 2rem;
+  }
+
+  .blog-card__description {
+    margin-bottom: 2.5rem;
   }
 }
 
