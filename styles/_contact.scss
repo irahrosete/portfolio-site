@@ -1,6 +1,5 @@
 .contact-content {
     margin-top: 20vh;
-    height: 75vh;
 }
 .contact {
     margin: 0 10vw;
@@ -82,7 +81,7 @@
 
 @media only screen and (min-width: $medium-screen-size) {
     .contact {
-        margin: 0 5vw;
+        margin: 0 5vw 10vh;
     }
     .contact-content {
         display: flex;

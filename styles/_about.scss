@@ -22,6 +22,21 @@
     }
 }
 
+.here:link {
+    text-decoration: none;
+    color: #5888b4;
+    font-weight: 600;
+}
+.here:visited {
+    text-decoration: none;
+    color: #5888b4;
+    font-weight: 600;
+}
+.here:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .resume {
     margin-top: 2vh;
     padding: 0.5vh;
