@@ -22,6 +22,10 @@
     box-sizing: border-box;
     border-bottom: #888888 solid 1px;
     border-radius: 6px;
+    filter: grayscale(50%);
+}
+.work-card__image:hover {
+    filter: grayscale(0%);
 }
 .work-card__text {
     width: 80vw;
@@ -40,6 +44,42 @@
 .work-card__description {
     overflow: hidden;
     margin-bottom: 10px;
+}
+
+.work-entry {
+    margin: 20vh 10vw 10vh;
+}
+
+.back-to-work {
+    padding: 0.5vh;
+    border-radius: 6px;
+    width: 80px;
+    text-transform: uppercase;
+    background-color: #5888b4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+
+}
+.back-to-work:hover {
+    background-color: #ededed;
+    color: #5888b4;
+    font-weight: 600;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.back-to-work a:link, .back-to-work a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.back-to-work a:visited:hover {
+    text-decoration: none;
+    color: #3f4244;
+}
+.back-to-work:active {
+    transform: translateY(1.5px);
 }
 
 @media only screen and (min-width: $tablet-size) {
@@ -74,6 +114,9 @@
     }
     .work-card__description {
         margin-bottom: 2.25rem;
+    }
+    .work-entry {
+        font-size: 1.25rem;
     }
 }
 
@@ -111,5 +154,10 @@
     }
     .work-card__description {
         margin-bottom: 2.5rem;
+    }
+    .work-entry {
+        font-size: 1.5rem;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 }
