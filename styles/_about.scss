@@ -40,11 +40,16 @@
     color: #5888b4;
     font-weight: 600;
     box-sizing: border-box;
+    z-index: 1;
 }
+.resume:active {
+    transform: translateY(1.5px);
+}
+
 .resume {
     a {
         box-sizing: border-box;
-        padding: 5px 12px;
+        padding: inherit;
     }
     a:visited {
         text-decoration: none;

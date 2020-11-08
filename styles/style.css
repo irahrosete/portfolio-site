@@ -293,11 +293,16 @@ footer {
   color: #5888b4;
   font-weight: 600;
   box-sizing: border-box;
+  z-index: 1;
+}
+
+.resume:active {
+  transform: translateY(1.5px);
 }
 
 .resume a {
   box-sizing: border-box;
-  padding: 5px 12px;
+  padding: inherit;
 }
 .resume a:visited {
   text-decoration: none;
@@ -478,6 +483,7 @@ footer {
   height: 500px;
   border: #888888 solid 1px;
   box-shadow: 5px 5px 5px #888888;
+  border-radius: 6px;
 }
 
 .blog-card__image {
@@ -486,6 +492,7 @@ footer {
   object-fit: cover;
   box-sizing: border-box;
   border-bottom: #888888 solid 1px;
+  border-radius: 6px;
 }
 
 .blog-card__text {
@@ -510,7 +517,6 @@ footer {
 }
 
 .blog-card__link {
-  font-weight: 600;
   padding: 0.5vh;
   border-radius: 6px;
   width: 130px;
@@ -527,6 +533,7 @@ footer {
   color: #5888b4;
   font-weight: 600;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .blog-link:visited {
@@ -565,7 +572,6 @@ footer {
 }
 
 .back-to-blog {
-  font-weight: 600;
   padding: 0.5vh;
   border-radius: 6px;
   width: 80px;
@@ -582,6 +588,7 @@ footer {
   color: #5888b4;
   font-weight: 600;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .back-to-blog a:visited, .back-to-blog a:link {
@@ -639,12 +646,12 @@ footer {
 
   .blog-card {
     width: 500px;
-    height: 800px;
+    height: 700px;
   }
 
   .blog-card__image {
     width: 500px;
-    height: 400px;
+    height: 300px;
   }
 
   .blog-card__text {
