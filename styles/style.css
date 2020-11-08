@@ -270,6 +270,10 @@ footer {
   align-self: center;
   filter: drop-shadow(0 0 0.85rem #0f0f0f);
   margin-bottom: 3vh;
+  filter: grayscale(50%);
+}
+.about img:hover {
+  filter: grayscale(0%);
 }
 .about p {
   margin-bottom: 0;
@@ -573,6 +577,11 @@ footer {
   box-sizing: border-box;
   border-bottom: #888888 solid 1px;
   border-radius: 6px;
+  filter: grayscale(50%);
+}
+
+.blog-card__image:hover {
+  filter: grayscale(0%);
 }
 
 .blog-card__text {

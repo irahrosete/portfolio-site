@@ -25,6 +25,10 @@
     box-sizing: border-box;
     border-bottom: #888888 solid 1px;
     border-radius: 6px;
+    filter: grayscale(50%);
+}
+.blog-card__image:hover {
+    filter: grayscale(0%);
 }
 .blog-card__text {
     width: 80vw;

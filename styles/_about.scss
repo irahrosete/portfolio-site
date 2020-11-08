@@ -16,6 +16,10 @@
         align-self: center;
         filter: drop-shadow(0 0 0.85rem #0f0f0f);
         margin-bottom: 3vh;
+        filter: grayscale(50%);
+    }
+    img:hover {
+        filter: grayscale(0%);
     }
     p {
         margin-bottom: 0;
