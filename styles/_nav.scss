@@ -4,12 +4,10 @@
     font-family: 'Rajdhani', sans-serif;
     position: fixed;
     z-index: 1;
-    background-color: #3f4244;
+    background-color: $dark-grey;
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    // border-bottom: #ededed solid 2px;
-
 }
 .nav-header__logo {
     height: 50px;
@@ -40,7 +38,7 @@
     user-select: none;
     a {
         text-decoration: none;
-        color: #3f4244;
+        color: $dark-grey;
     }
     a:hover {
         font-weight: 600;
@@ -65,7 +63,7 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background-color: #cdcdcd;
+    background-color: $off-white;
     border-radius: 3px;
     z-index: 1;
 }
@@ -106,7 +104,7 @@
     top: 15px;
     margin: 2.5vh 0 0 -60px;
     padding: 20px 50px;
-    background-color: #ededed;
+    background-color: $off-white;
     opacity: 0.90;
     list-style-type: none;
     transform-origin: 0% 0%;

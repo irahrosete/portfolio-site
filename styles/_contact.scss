@@ -12,10 +12,10 @@
     display: flex;
     box-sizing: border-box;
     text-align: center;
-    background-color: #ededed;
+    background-color: $off-white;
     border-radius: 6px;
-    border-top: 6px solid #5888b4;
-    color: #3f4244;
+    border-top: 6px solid $blue;
+    color: $dark-grey;
     padding: 15px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .submit-button {
-    background-color: #5888b4;
+    background-color: $blue;
     color: #ffffff;
     cursor: pointer;
     border-radius: 6px;
@@ -45,11 +45,11 @@
     display: inline-block;
     width: 130px;
     align-self: center;
-    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+    filter: drop-shadow(3px 3px 1.5px $shadow);
 }
 .submit-button:hover {
-    background-color: #ededed;
-    color: #5888b4;
+    background-color: $off-white;
+    color: $blue;
     font-weight: 600;
     box-sizing: border-box;
 }

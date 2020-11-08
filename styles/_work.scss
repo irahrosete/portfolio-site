@@ -10,8 +10,8 @@
 .work-card {
     width: 80vw;
     height: 300px;
-    border: #888888 solid 1px;
-    box-shadow: 5px 5px 5px #888888;
+    border: $light-grey solid 1px;
+    box-shadow: 5px 5px 5px $light-grey;
     border-radius: 6px;
 }
 
@@ -20,7 +20,7 @@
     height: 150px;
     object-fit: cover;
     box-sizing: border-box;
-    border-bottom: #888888 solid 1px;
+    border-bottom: $light-grey solid 1px;
     border-radius: 6px;
     filter: grayscale(50%);
 }
@@ -55,16 +55,16 @@
     border-radius: 6px;
     width: 80px;
     text-transform: uppercase;
-    background-color: #5888b4;
+    background-color: $blue;
     color: #ffffff;
     border: none;
     cursor: pointer;
-    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+    filter: drop-shadow(3px 3px 1.5px $shadow);
 
 }
 .back-to-work:hover {
-    background-color: #ededed;
-    color: #5888b4;
+    background-color: $off-white;
+    color: $blue;
     font-weight: 600;
     box-sizing: border-box;
     z-index: 1;
@@ -76,7 +76,7 @@
 }
 .back-to-work a:visited:hover {
     text-decoration: none;
-    color: #3f4244;
+    color: $dark-grey;
 }
 .back-to-work:active {
     transform: translateY(1.5px);
@@ -99,7 +99,7 @@
     .work-card {
         width: 400px;
         height: 400px;
-        box-shadow: 7.5px 7.5px 7.5px #888888;
+        box-shadow: 7.5px 7.5px 7.5px $light-grey;
     }
     .work-card__image {
         width: 400px;

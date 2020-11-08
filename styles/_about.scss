@@ -11,10 +11,10 @@
         width: 320px;
         height: auto;
         box-sizing: border-box;
-        border: #888888 solid 1px;
+        border: $light-grey solid 1px;
         border-radius: 6px;
         align-self: center;
-        filter: drop-shadow(0 0 0.85rem #0f0f0f);
+        filter: drop-shadow(0 0 0.85rem $shadow);
         margin-bottom: 3vh;
         filter: grayscale(50%);
     }
@@ -28,12 +28,12 @@
 
 .here:link {
     text-decoration: none;
-    color: #5888b4;
+    color: $blue;
     font-weight: 600;
 }
 .here:visited {
     text-decoration: none;
-    color: #5888b4;
+    color: $blue;
     font-weight: 600;
 }
 .here:hover {
@@ -47,16 +47,16 @@
     border-radius: 6px;
     width: 110px;
     text-transform: uppercase;
-    background-color: #5888b4;
+    background-color: $blue;
     color: #ffffff;
     border: none;
     cursor: pointer;
-    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+    filter: drop-shadow(3px 3px 1.5px $shadow);
 }
 
 .resume:hover {
-    background-color: #ededed;
-    color: #5888b4;
+    background-color: $off-white;
+    color: $blue;
     font-weight: 600;
     box-sizing: border-box;
     z-index: 1;
@@ -80,11 +80,11 @@
     }
     a:link:hover {
         text-decoration: none;
-        color: #5888b4;
+        color: $blue;
     }
     a:visited:hover {
         text-decoration: none;
-        color: #3f4244;
+        color: $dark-grey;
     }
 }
 

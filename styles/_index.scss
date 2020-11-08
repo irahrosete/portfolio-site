@@ -1,9 +1,5 @@
-$tablet-size: 600px;
-$medium-screen-size: 1024px;
-$large-screen-size: 1300px;
-
 body {
-    background-color: #3f4244;
+    background-color: $dark-grey;
     color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -44,7 +40,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(0 0 0.85rem #0f0f0f);
+    filter: drop-shadow(0 0 0.85rem $shadow);
 }
 footer {
     font-size: 0.75rem;
@@ -54,8 +50,8 @@ footer {
     text-align: end;
     width: 100%;
     padding: 5px 5px;
-    background-color: #ededed;
-    color: #3f4244;
+    background-color: $off-white;
+    color: $dark-grey;
 }
 
 @media only screen and (min-width: $tablet-size) {

@@ -14,8 +14,8 @@
 .blog-card {
     width: 80vw;
     height: 500px;
-    border: #888888 solid 1px;
-    box-shadow: 5px 5px 5px #888888;
+    border: $light-grey solid 1px;
+    box-shadow: 5px 5px 5px $light-grey;
     border-radius: 6px;
 }
 .blog-card__image {
@@ -23,7 +23,7 @@
     height: 200px;
     object-fit: cover;
     box-sizing: border-box;
-    border-bottom: #888888 solid 1px;
+    border-bottom: $light-grey solid 1px;
     border-radius: 6px;
     filter: grayscale(50%);
 }
@@ -53,16 +53,16 @@
     border-radius: 6px;
     width: 130px;
     text-transform: uppercase;
-    background-color: #5888b4;
+    background-color: $blue;
     color: #ffffff;
     border: none;
     cursor: pointer;
-    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+    filter: drop-shadow(3px 3px 1.5px $shadow);
 
 }
 .blog-card__link:hover {
-    background-color: #ededed;
-    color: #5888b4;
+    background-color: $off-white;
+    color: $blue;
     font-weight: 600;
     box-sizing: border-box;
     z-index: 1
@@ -77,11 +77,11 @@
 }
 .blog-link:link:hover {
     text-decoration: none;
-    color: #5888b4;
+    color: $blue;
 }
 .blog-link:visited:hover {
     text-decoration: none;
-    color: #3f4244;
+    color: $dark-grey;
 }
 .blog-card__link:active {
     transform: translateY(1.5px);
@@ -101,16 +101,16 @@
     border-radius: 6px;
     width: 80px;
     text-transform: uppercase;
-    background-color: #5888b4;
+    background-color: $blue;
     color: #ffffff;
     border: none;
     cursor: pointer;
-    filter: drop-shadow(3px 3px 1.5px #0f0f0f);
+    filter: drop-shadow(3px 3px 1.5px $shadow);
 
 }
 .back-to-blog:hover {
-    background-color: #ededed;
-    color: #5888b4;
+    background-color: $off-white;
+    color: $blue;
     font-weight: 600;
     box-sizing: border-box;
     z-index: 1;
@@ -122,7 +122,7 @@
 }
 .back-to-blog a:visited:hover {
     text-decoration: none;
-    color: #3f4244;
+    color: $dark-grey;
 }
 .back-to-blog:active {
     transform: translateY(1.5px);
@@ -135,7 +135,7 @@
     .blog-card {
         width: 80vw;
         height: 600px;
-        box-shadow: 7.5px 7.5px 7.5px #888888;
+        box-shadow: 7.5px 7.5px 7.5px $light-grey;
     }
     .blog-card__image {
         width: 80vw;
