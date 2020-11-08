@@ -1,4 +1,44 @@
 .work {
     margin: 20vh 10vw 10vh;
-    height: 65vh;
+    // height: 65vh;
+    h1 {
+        text-align: center;
+    }
+}
+.work-wrapper {
+    margin-bottom: 30px;
+}
+.work-card {
+    width: 80vw;
+    height: 300px;
+    border: #888888 solid 1px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 6px;
+}
+
+.work-card__image {
+    width: 80vw;
+    height: 150px;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-bottom: #888888 solid 1px;
+    border-radius: 6px;
+}
+.work-card__text {
+    width: 80vw;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.work-card__title h1 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1.25rem;
+}
+.work-card__description {
+    overflow: hidden;
+    margin-bottom: 10px;
 }

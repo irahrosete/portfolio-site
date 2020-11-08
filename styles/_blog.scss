@@ -12,14 +12,14 @@
     margin: 30px;
 }
 .blog-card {
-    width: 75vw;
+    width: 80vw;
     height: 500px;
     border: #888888 solid 1px;
     box-shadow: 5px 5px 5px #888888;
     border-radius: 6px;
 }
 .blog-card__image {
-    width: 75vw;
+    width: 80vw;
     height: 200px;
     object-fit: cover;
     box-sizing: border-box;
@@ -27,7 +27,7 @@
     border-radius: 6px;
 }
 .blog-card__text {
-    width: 75vw;
+    width: 80vw;
     height: 300px;
     padding: 20px;
     display: flex;
@@ -157,6 +157,11 @@
         display: inline-flex;
         justify-content: center;
         flex-wrap: wrap;
+        h1 {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+        }
     }
 
     .blog-card {
