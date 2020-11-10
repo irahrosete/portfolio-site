@@ -253,17 +253,21 @@ footer {
 }
 @media only screen and (max-width: 400px) {
   .page-title {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
   }
 
   .nav-header__logo {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
   }
 
   .github, .twitter, .linkedin, .instagram {
     width: 32px;
     height: 32px;
+  }
+
+  .menu li {
+    font-size: 22px;
   }
 }
 .about {
@@ -792,6 +796,7 @@ footer {
 }
 .contact-content {
   margin-top: 20vh;
+  height: 85vh;
 }
 
 .contact {
