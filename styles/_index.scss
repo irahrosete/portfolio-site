@@ -3,7 +3,6 @@ body {
     color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
 }
-
 .hero {
     height: 80vh;
     width: 94vw;
@@ -14,7 +13,6 @@ body {
     grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
     margin-top: 15vh;
 }
-
 .hero-header {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
@@ -24,7 +22,6 @@ body {
     align-items: flex-end;
     margin: 0;
 }
-
 .hero-p {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
@@ -32,7 +29,6 @@ body {
     justify-content: flex-end;
     align-items: flex-start;
 }
-
 .hero-image {
     grid-column: 5 / 6;
     grid-row: 2 / 5;
@@ -54,6 +50,7 @@ footer {
     color: $dark-grey;
 }
 
+// breakpoint for tablet-size screens
 @media only screen and (min-width: $tablet-size) {
     .hero-header {
         font-size: 6rem;
@@ -66,6 +63,7 @@ footer {
     }
 }
 
+// breakpoint for medium-size screens
 @media only screen and (min-width: $medium-screen-size) {
     .hero-header {
         font-size: 7.5rem;

@@ -41,6 +41,7 @@
     color: #ffffff;
 }
 
+// this is to make buttons consistent across pages
 .resume {
     margin-top: 2vh;
     padding: 0.5vh;
@@ -53,7 +54,6 @@
     cursor: pointer;
     filter: drop-shadow(3px 3px 1.5px $shadow);
 }
-
 .resume:hover {
     background-color: $off-white;
     color: $blue;
@@ -64,7 +64,6 @@
 .resume:active {
     transform: translateY(1.5px);
 }
-
 .resume {
     a {
         box-sizing: border-box;
@@ -88,6 +87,7 @@
     }
 }
 
+// breakpoint for tablet-size screens
 @media only screen and (min-width: $tablet-size) {
     .about {
         font-size: 1.25rem;
@@ -97,6 +97,7 @@
     }
 }
 
+// breakpoint for medium-size screens
 @media only screen and (min-width: $medium-screen-size) {
     .about {
         font-size: 1.5rem;

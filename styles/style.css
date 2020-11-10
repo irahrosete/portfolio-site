@@ -464,7 +464,6 @@ footer {
   color: #5888b4;
   font-weight: 600;
   box-sizing: border-box;
-  z-index: 1;
 }
 
 .back-to-work a:link, .back-to-work a:visited {
@@ -653,7 +652,6 @@ footer {
   color: #5888b4;
   font-weight: 600;
   box-sizing: border-box;
-  z-index: 1;
 }
 
 .blog-link:visited {

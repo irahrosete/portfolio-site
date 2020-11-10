@@ -121,6 +121,7 @@
     transform: none;
 }
 
+// breakpoint for tablet-size screens
 @media only screen and (min-width: $tablet-size) {
     .page-title {
         font-size: 2.5rem;
@@ -142,6 +143,7 @@
     }
 }
 
+// breakpoint for medium-size screens
 @media only screen and (min-width: $medium-screen-size) {
     .page-title {
         font-size: 3rem;
@@ -164,6 +166,7 @@
     }
 }
 
+// breakpoint for smaller-size screens
 @media only screen and (max-width: $smaller-screen-size) {
     .page-title {
         font-size: 1.4rem;
