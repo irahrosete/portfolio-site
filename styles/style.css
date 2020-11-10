@@ -568,8 +568,14 @@ footer {
 
   .work-entry {
     font-size: 1.5rem;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 32.5vw;
+    margin-right: 32.5vw;
+  }
+
+  .work-entry__image {
+    width: 35vw;
+    height: auto;
+    display: block;
   }
 }
 .blog {
