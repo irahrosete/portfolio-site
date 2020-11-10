@@ -1,4 +1,4 @@
-# Portfolio Website T1A2
+# Portfolio Website
 
 url: https://irahrosete.netlify.app
 GitHub: https://github.com/irahrosete/portfolio-site
@@ -23,6 +23,13 @@ The site features stylesheet subresource integrity to ensure that it is rendered
 ### Mockups
 
 ### Mood Board
+![Mood Board 01](/docs/moodboard.png)
+![Mood Board 02](/docs/moodboard2.jpg)
+![Mood Board 03](/docs/moodboard3.png)
+![Mood Board 04](/docs/moodboard4.jpg)
+
+### Colour Palette
+![Colour Palette](/docs/colour-palette.png)
 
 ### Target Audience
 This portfolio targets to engage potential employers in the tech industry.
@@ -31,3 +38,4 @@ This portfolio targets to engage potential employers in the tech industry.
 HTML, CSS, Sass, Git, Github, Netlify, Balsamiq, Adobe Illustrator
 
 ### Challenges
+![Web Accessibility](/docs/portfolio-site-web-accessibility.jpg)
