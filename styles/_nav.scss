@@ -163,3 +163,17 @@
         }
     }
 }
+
+@media only screen and (max-width: $smaller-screen-size) {
+    .page-title {
+        font-size: 1.75rem;
+    }
+    .nav-header__logo {
+        height: 40px;
+        width: 40px;
+    }
+    .github, .twitter, .linkedin, .instagram {
+        width: 32px;
+        height: 32px;
+    }
+}

@@ -251,6 +251,21 @@ footer {
     font-size: 32px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .page-title {
+    font-size: 1.75rem;
+  }
+
+  .nav-header__logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .github, .twitter, .linkedin, .instagram {
+    width: 32px;
+    height: 32px;
+  }
+}
 .about {
   margin: 20vh 10vw 10vh;
   display: flex;
