@@ -22,6 +22,12 @@ The site provides an easy link to my resmume and links to my professional and so
 
 The stylesheet features subresource integrity to ensure that the site is rendered without malicious manipulation.
 
+### Target Audience
+This portfolio targets to engage potential employers in the tech industry.
+
+### Tech Stack
+![HTML](/docs/html.png) ![CSS](/docs/css.png) ![Sass](/docs/sass.png) ![Git](/docs/git.png) ![Github](/docs/github.png) ![Balsamiq](/docs/balsamiq.png) ![Adobe Illustrator](/docs/adobe-illustrator.png)
+
 ### Sitemap
 ![Sitemap](/docs/sitemap.png)
 
@@ -39,12 +45,6 @@ The stylesheet features subresource integrity to ensure that the site is rendere
 
 ### Mood Board
 ![Mood Board](docs/moodboard.png)
-
-### Target Audience
-This portfolio targets to engage potential employers in the tech industry.
-
-### Tech Stack
-![HTML](/docs/html.png) ![CSS](/docs/css.png) ![Sass](/docs/sass.png) ![Git](/docs/git.png) ![Github](/docs/github.png) ![Balsamiq](/docs/balsamiq.png) ![Adobe Illustrator](/docs/adobe-illustrator.png)
 
 ### Web Accessibility
 ![Web Accessibility](/docs/portfolio-site-web-accessibility.jpg)
