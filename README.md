@@ -27,7 +27,7 @@ The stylesheet features subresource integrity to ensure that the site is rendere
 This portfolio targets to engage potential employers in the tech industry.
 
 ### Tech Stack
-![HTML](/docs/html.png) ![CSS](/docs/css.png) ![Sass](/docs/sass.png) ![Git](/docs/git.png) ![Github](/docs/github.png) ![Balsamiq](/docs/balsamiq.png) ![Adobe Illustrator](/docs/adobe-illustrator.png)
+![HTML](/docs/html.png) ![CSS](/docs/css.png) ![Sass](/docs/sass.png) ![Git](/docs/git.png) ![Github](/docs/github.png) ![Netlify](/docs/netlify.png) ![VS Code](/docs/vs-code.png) ![Balsamiq](/docs/balsamiq.png) ![Adobe Illustrator](/docs/adobe-illustrator.png)
 
 ### Sitemap
 ![Sitemap](/docs/sitemap.png)
