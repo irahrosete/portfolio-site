@@ -1,0 +1,89 @@
+slide deck
+
+ok A walk-through of your portfolio website and its features
+ok A walk-through of your design process and decisions
+ok A review of your development/build process including challenges, ethical issues, favourite parts, etc
+
+ok An overview/sitemap of all the pages on your website 	
+ok The overall structure of your website and how different pages will be navigated
+
+ok Wireframes or mockups of the pages of your website 	
+ok Your decision making process relating to the overall aesthetic of your website
+
+ok A list of components that will be used 	
+ok How components and styling will engage the audience
+
+-----------------------
+
+Process
+- created the site map
+	simple. landing page. four main pages with the work and blog pages having their own subpages. all link back to the landing page.
+- created the wireframe
+	hamburger menu
+	logo prominently close to the hamburger menu
+	socials link at the top right
+	landing page - minimalist
+	about page - simple and will house the resume
+	work page - use of cards
+	blog-page - also use cards with the blog entries having a back button to the main blog page
+	contact page
+- colour schemes and mood board
+	wanted the site to not be too formal and to show my personality
+- created a mock up of the landing page
+	landing page is an important component so wanted to see what it looks like before coding
+- coding + STATIC DEMO
+	started with the landing page
+	*** my logo in the browser tab
+	landing page. mobile-first. did not move until i made the page responsive across all screen sizes. this was my approach for every single page. used grid for this one as i wanted the content to be slightly off centre in desktop view.
+	created every page with the template - same background colour and navbar. footer came afterwards
+	hambuger menu - this took me about 2 days to nail it
+	contact page. made the first button of the site. didn't have a plan for the button but i know that it will need to be consistent with some animations. applied to the whole site.
+	about page. this is when i realised that i need the navbar to be fixed. ahd to go back and fix navbar on every single page.
+	blog page. used flex for the cards and had fun arranging the content and the cards.
+	finally, work page. also used flex and cards.
+
+all in all, i've forcused on these
+components:
+navbar which also shows the page title so users know where they are
+hamburger menu which is animated on hover
+cards which serve as snippets of the blog entries and work entries
+buttons. consistent, animated and accessible
+my logo + landing page
+colour contrast assessed
+
+DYNAMIC DEMO
+
+Challenges
+1. hamburger menu
+	most challenging but also most rewarding
+	web accessibility - aria
+2. responsive design
+	had to make decisions on text and image sizes, margins, paddings, box-sizing elements to make them appear consistent and in uniform style on all pages. 	had to make decisions on whether to use flex or grid or inline or block or inline-flex
+	read more and send message buttons on iOS showing weird on actual iphone, but appear ok in dev tools
+3. feature creep
+	i wireframed the wotk and blog pages to use cards but at some point during coding i wanted to do an accordion for the work page. i started this but got to my senses and dropped it and stuck to the brief and decided to provide MVP.
+	i also wanted to do some extra animations for the landing page where the main text will come out in a typewritter animation but decided to drop this as well and focused on the brief.
+4. code creep
+	as i progressed, it got harder and harder to read even my own code. variables got out of control. i consciously made an effort from the beginning to use the BEM (block, element, modifier) naming convention to name my variables all throughout and this made it easier for me when i needed to come back the next day to continue work or to fix some styles and issues.
+
+learnings:
+1. git is very important and very practical. branching helped. making sure to commit often.
+2. deploy early. this allowed me to share my site to friends and they served as my testers. found out about some bugs on my navbar stepping down in smaller screens, the read more button and the send message button.
+3. post in twitter. this served as my progress check and confidence booster.
+4. get feedback. got feedback from friends, colleagues and classmates and the review with alex and daniel was very insightful. industry practice to have someone review your code and get feedback even when you're very confident about your work.
+
+------------------
+
+- web accessibility
+	aria role=navigation
+	role=navigation
+	or checkbox
+- read more button and send message button on contact page
+	ifconfig
+	192.
+- add link to github and deployed pages
+- sri sha 512
+
+-----------------------
+
+- gitlog.txt
