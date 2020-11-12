@@ -636,7 +636,7 @@ footer {
 }
 
 .blog-card__link {
-  padding: 0.5vh;
+  padding: 0.6vh;
   border-radius: 6px;
   width: 130px;
   text-transform: uppercase;
@@ -806,6 +806,7 @@ footer {
 }
 .contact-content {
   margin-top: 20vh;
+  margin-bottom: 10vh;
 }
 
 .contact {
@@ -835,7 +836,7 @@ footer {
   flex-direction: column;
   box-sizing: border-box;
   width: auto;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .contact-form input, .contact-form textarea {
   border-radius: 6px;
