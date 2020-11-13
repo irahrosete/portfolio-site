@@ -78,11 +78,7 @@ learnings:
 	aria role=navigation
 	role=navigation
 	or checkbox
-- read more button and send message button on contact page
-	ifconfig
-	192.
 - add link to github and deployed pages
-- sri sha 512
 
 -----------------------
 
