@@ -1,0 +1,425 @@
+commit 073b6c54bd53141c6a25ec45cf0a4dd33c5603e3 (HEAD -> main, origin/main)
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 20:52:13 2020 +1100
+
+    added link to github repo for each project in the work page
+
+commit d114bf249c042ddcda0bfe0fc606ae1f4f10bc0c
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 20:44:33 2020 +1100
+
+    updated sri for style.css
+
+commit 2672e389d6ed749ff6ce1d61c728aa570a159172
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 20:42:22 2020 +1100
+
+    added link to github repo for each project in the work page
+
+commit 699b67e24189f10d709bb94c6af2aa3b41a34e66
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 11:39:03 2020 +1100
+
+    updated sri for style.css
+
+commit 81605b574d2df7c206a9ec9579feb04d004df62a
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 11:35:46 2020 +1100
+
+    updated read more button in blog page
+
+commit 146c7ddda25709bec8127f66725c646e2717de64
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 02:32:46 2020 +1100
+
+    updated blog content descriptions
+
+commit 4bd475366d51b0a7460a5fe63832ffd5d54979cc
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 01:59:27 2020 +1100
+
+    added sri sha512
+
+commit 4627660680e5b27a943a9aede9a6b2de8335760f
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 01:51:38 2020 +1100
+
+    added aria-label
+
+commit a10616a035905c83658c75c0711902bada01b233 (hamburger2)
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 01:45:58 2020 +1100
+
+    fixed buttons for smaller screens
+
+commit 7c7709bdeb382b7e47870210408dc9b8c27a5e52
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 13 01:15:27 2020 +1100
+
+    updated presentation slide deck
+
+commit 760297ea93fd7733c5bfedf4344027a4843eb82d
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 12 01:49:24 2020 +1100
+
+    updated tech stack in README file
+
+commit a96b82aba20ceed706bde99a7e7a5a6ca5b91f0f
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 12 01:36:30 2020 +1100
+
+    updated urls in README file
+
+commit 18139edf3b8bc069636f58e192c843a30837e9f0
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 12 01:33:47 2020 +1100
+
+    rearranged sections of README file
+
+commit 6be074726bec2397a2b4d1df42d826f6b1aa0c35
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 12 01:24:55 2020 +1100
+
+    finalised README file
+
+commit a1af26630d7b8f2f9016b256201392fd665907cb
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 01:56:12 2020 +1100
+
+    added mood boards and colour palette to readme file
+
+commit 4d796065840b10667caffa3c8505da4dc811723a
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 01:36:15 2020 +1100
+
+    added sitemap to readme file
+
+commit d6b5a5d4db83d0dabd4166c15bc1e9aa594d642b
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 01:25:29 2020 +1100
+
+    rearranged directories
+
+commit e8551ec0d0ec9c6e4d7b33e1d0efa802ced6d98d
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 01:11:41 2020 +1100
+
+    rearranged directories
+
+commit 0a5ce58837d000c7b4d7ee3b182588c682a0912e
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 00:53:59 2020 +1100
+
+    created readme and gitlog files, and resized image book-trading.jpg
+
+commit 865249770ccc5cf16fcba42a934cad69ffde7714
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 00:42:10 2020 +1100
+
+    updated sri on stylesheet
+
+commit 651a72d883e4ce5bd929f55591041ac3687afd26
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 00:39:44 2020 +1100
+
+    updated comments
+
+commit 9e829ac7bef6a779b4748f1fd3a36671d503d991
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 11 00:19:21 2020 +1100
+
+    updated sizes of images in work entry pages
+
+commit 721844f5efa23f528b30cb6754ba113a47232362
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 10 23:46:44 2020 +1100
+
+    updated titles for all pages
+
+commit 9de628068165e15fd6d10265d917f05ad683f64c
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 10 23:41:29 2020 +1100
+
+    added sri for the stylesheet
+
+commit 79a68a73f0c6c52417df29b2b064ab868a70f179
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 10 22:43:37 2020 +1100
+
+    resized image in about page
+
+commit dff5672c7995f8ec6c22210bd46506cc84c73a45
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 10 22:35:08 2020 +1100
+
+    updated work entry pages
+
+commit 86f3f9a6d807b703cb15980b3a1cc115ef4f564a
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 10 22:14:02 2020 +1100
+
+    made font size in navbar smaller for smaller screens
+
+commit 802008e8258e9b76d84bd562b17a89acf2a95854
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 10 21:59:27 2020 +1100
+
+    fixed navbar for smaller screens
+
+commit 9ac4a312e23f33e084e016caa6703958e3262b2f
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 23:38:03 2020 +1100
+
+    fixed labels
+
+commit 4948c9be189395a5d7721458a054263cc695f0d3
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 23:25:36 2020 +1100
+
+    fixed label for accesibility
+
+commit b76059bc83c4d976ff0b4b45336bcb4a186c0abe
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 23:20:23 2020 +1100
+
+    fixed sublists in menu
+
+commit f54fad5abf59ad5751ad61e6d8600332235759b6
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 23:08:08 2020 +1100
+
+    fixed label semantics
+
+commit 9e07ff169f8e7108dbbc2a1b34d13d58a9b2f0de
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 22:55:05 2020 +1100
+
+    updated label on input for accessibility
+
+commit f6c54f0a74e22ccd1748e64ba1b2dd40f3c0db1a
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 22:38:48 2020 +1100
+
+    updated sublists and label for accessibility
+
+commit e7758053bab59ea359dc717cce2cd69aa63eb082
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 19:14:10 2020 +1100
+
+    updated variables
+
+commit 7e0accd7c081a5d8672c3b3081e510aa42c0f15c
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 18:39:06 2020 +1100
+
+    added time semantics
+
+commit c67194fa1ce829bd431753b497eb9ffc7a3b0087
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 17:58:41 2020 +1100
+
+    added fourth work page link and subpage
+
+commit cac70bc5c286b0679d9ad17dea811a6e50e8e2e3
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 17:09:52 2020 +1100
+
+    styled images
+
+commit b811613c3a543840c55c51fa80e5d2f66562c17c
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 16:59:08 2020 +1100
+
+    styled images in the work page
+
+commit 1c2c7569e95c4663ef7b59b34eda18368bf68bbe
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 16:57:47 2020 +1100
+
+    linked work page to sub pages and styled images
+
+commit 4a7a0d176e771d8e037e3f5139897008eef92aae
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 16:31:03 2020 +1100
+
+    linked about page to instagram and restyled work page
+
+commit 3aed15ddb8babbcdb5fa8965660f241f870b2b92
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 15:57:26 2020 +1100
+
+    made work page responsive
+
+commit cd9010add4e8709e1e6c7cca827ded00c9dd068c
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 14:35:41 2020 +1100
+
+    added and styled the work page
+
+commit 131515ab620194136813e081c57190cda4c1b9b2
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 12:12:15 2020 +1100
+
+    updated buttons to be consistent
+
+commit b479187489316cb1185bf4bde74cc0cf655edfa9
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 11:41:55 2020 +1100
+
+    added link to resume in about page
+
+commit 44ef79b3948626d29e107ee4d13ed5928bd977a4
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 01:46:32 2020 +1100
+
+    updated article in about page
+
+commit 757456160a9bd38d6afcc547871524e1f3acb9c0
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 01:35:32 2020 +1100
+
+    made footer fixed at the bottom of every page
+
+commit 9127acad230b750462911c935e224718376a111e
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sun Nov 8 00:36:14 2020 +1100
+
+    added footer
+
+commit ffd49265e0b3abcc4c689dfaf51bd18acb2fd105
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 23:47:26 2020 +1100
+
+    fixed margins in the blog page
+
+commit 556fb05e2b546bcbd9fc90cf14e36b90f69526f6
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 23:04:15 2020 +1100
+
+    fixed blog entries margin
+
+commit 84143c3ecdbd36980a5b17ced03c5c24ec0afcc7
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 22:38:30 2020 +1100
+
+    fixed margins in contact page
+
+commit 75eda727c04c1517e7adffd3c71237981479092e
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 22:32:11 2020 +1100
+
+    added and styled about page and made it responsive
+
+commit d3ab5146b5a50b97109dcbef5c78e03ce2d6bfef
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 20:16:20 2020 +1100
+
+    linked blog entries to main blog page
+
+commit 547d3ea7f3bf0179c08ffc29216e2596d0077856
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 19:33:35 2020 +1100
+
+    styled buttons in blog pages
+
+commit 557ffb70a70f94c7af1df793b998d30a9e118401
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 17:06:45 2020 +1100
+
+    fixed navbar
+
+commit b8a2ed5e92eac81ea3a80ad2a8e9044229d05fe9
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 15:38:32 2020 +1100
+
+    updated blog page to be responsive
+
+commit d61f18c1433eb0c7a3dfb36bc7890e20b8e59182
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Sat Nov 7 12:59:33 2020 +1100
+
+    added and styled blogpage
+
+commit 28e03fa4b2490c20a396e1388df0f0b723e6ee68
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 6 14:29:25 2020 +1100
+
+    updated screen sizes for responsive design
+
+commit fca2fd9056810848e2ab63763354a3d8221db9f0
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Fri Nov 6 14:11:44 2020 +1100
+
+    made contact page responsive
+
+commit 1d94e6a09fc535b75fb53e205dc4bb86b6875cf6
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 5 17:05:27 2020 +1100
+
+    restyled contact page
+
+commit 76f23625413ac18811c3e3d1eb5f92fb42c22439
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 5 14:10:23 2020 +1100
+
+    updated about and contact pages
+
+commit 06b0559e63bfbd2069eecf2be2ae3f4e422d91c6
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 5 13:58:56 2020 +1100
+
+    added and styled contact page
+
+commit 5f27fd0aae2be00bcb85f9bb0c7d473c0e14172f
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 5 11:23:33 2020 +1100
+
+    changed position of menu box and made socials responsive
+
+commit adafd375dffca2cc6a9ab56bc00a368824f6a69f
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 5 00:45:49 2020 +1100
+
+    updated template for pages about, work, blog and contact
+
+commit ac0dc45c67ad1989763d4c3c74da5cd3ebf7888f (origin/hamburger, hamburger)
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Thu Nov 5 00:26:57 2020 +1100
+
+    fixed hamburger menu and made it responsive
+
+commit a9eca375c019449954da5eee6337ca6b8b6ff900
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 4 22:24:59 2020 +1100
+
+    added drop shadow to hero image
+
+commit 1d31ec9df2d571dd0ad5d7b5ec23a050de3c4c10
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 4 00:46:50 2020 +1100
+
+    added hamburger menu for mobile. still to be fixed
+
+commit 29b63bc34224be61f773fbd240d0c1cb7a045372
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Wed Nov 4 00:03:58 2020 +1100
+
+    added links to pages in navbar
+
+commit 146969dd103247c4155f8ff2ff10bf33ddd2a155
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 3 23:56:20 2020 +1100
+
+    added styling to navigation bar and landing page
+
+commit dede2b0ddff0fef4de935b742c6316d5d655c444
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 3 23:33:14 2020 +1100
+
+    updated landing page and saved images
+
+commit ef7f9265e8b1a37e793c93b306dd50500b1758c6
+Author: irah rosete <irah.rosete@outlook.com>
+Date:   Tue Nov 3 23:13:56 2020 +1100
+
+    initial commit
