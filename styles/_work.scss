@@ -29,7 +29,7 @@
 .work-card__text {
     width: 80vw;
     height: 150px;
-    padding: 20px;
+    padding: 20px 20px 10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -42,7 +42,11 @@
 }
 .work-card__description {
     overflow: hidden;
-    margin-bottom: 10px;
+}
+.work-card__link img {
+    width: 25px;
+    height: 25px;
+    float: right;
 }
 .work-entry {
     margin: 20vh 10vw 10vh;
@@ -114,8 +118,9 @@
     .work-card__title h1 {
         font-size: 1.75rem;
     }
-    .work-card__description {
-        margin-bottom: 2.25rem;
+    .work-card__link img {
+        width: 32px;
+        height: 32px;
     }
     .work-entry {
         font-size: 1.25rem;
@@ -155,8 +160,9 @@
     .work-card__title h1 {
         font-size: 2rem;
     }
-    .work-card__description {
-        margin-bottom: 2.5rem;
+    .work-card__link img {
+        width: 40px;
+        height: 40px;
     }
     .work-entry {
         font-size: 1.5rem;

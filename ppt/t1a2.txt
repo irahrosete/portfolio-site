@@ -1,20 +1,3 @@
-slide deck
-
-ok A walk-through of your portfolio website and its features
-ok A walk-through of your design process and decisions
-ok A review of your development/build process including challenges, ethical issues, favourite parts, etc
-
-ok An overview/sitemap of all the pages on your website 	
-ok The overall structure of your website and how different pages will be navigated
-
-ok Wireframes or mockups of the pages of your website 	
-ok Your decision making process relating to the overall aesthetic of your website
-
-ok A list of components that will be used 	
-ok How components and styling will engage the audience
-
------------------------
-
 Process
 - created the site map
 	simple. landing page. four main pages with the work and blog pages having their own subpages. all link back to the landing page.
@@ -78,7 +61,6 @@ learnings:
 	aria role=navigation
 	role=navigation
 	or checkbox
-- add link to github and deployed pages
 
 -----------------------
 
