@@ -1,6 +1,6 @@
 # Portfolio Website
 
-url: https://irahrosete.netlify.app
+url: https://irahrosete.com
 
 GitHub: https://github.com/irahrosete/portfolio-site
 
