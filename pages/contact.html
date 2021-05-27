@@ -67,7 +67,7 @@
                     <p>I'm always looking to collaborate with open-minded people. Feel free to drop me a line.</p>
                 </div>
                 <div class="form-container">
-                    <form id="contact-form">
+                    <form id="contact-form" name="contact">
                         <div class="contact-name">
                             <label for="name">NAME</label>
                             <input type="text" id="name" placeholder="Type your name here" name="name"></input>
@@ -98,11 +98,10 @@
     <script>
         const form = document.getElementById('contact-form')
         const confirmation = document.getElementById('confirmation')
-        console.log(form)
-        console.log(confirmation)
 
         const submit = (event) => {
             confirmation.removeAttribute('hidden')
+            document.forms.contact.reset()
             event.preventDefault()
         }
         form.onsubmit = submit
