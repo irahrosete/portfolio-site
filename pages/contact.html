@@ -10,6 +10,27 @@
     <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
     <link rel="stylesheet" href="../styles/style.css" />
     <title>Irah Rosete - contact</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("user_WZZpbI7nXlkI6rUv2QdD4");
+    })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                // these IDs from the previous steps
+                emailjs.sendForm('service_w47uayp', 'template_85xeoni', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body>
     <nav class="nav-header" role="navigation" aria-label="main menu">
@@ -45,18 +66,18 @@
                     <p>I'm always looking to collaborate with open-minded people. Feel free to drop me a line.</p>
                 </div>
                 <div class="form-container">
-                    <form class="contact-form">
+                    <form id="contact-form">
                         <div class="contact-name">
                             <label for="name">NAME</label>
-                            <input type="text" id="name" placeholder="Type your name here"></input>
+                            <input type="text" id="name" placeholder="Type your name here" name="name"></input>
                         </div>
                         <div class="contact-email">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" placeholder="And your email">
+                            <input type="email" id="email" placeholder="And your email" name="email">
                         </div>
                         <div class="contact-message">
                             <label for="message">MESSAGE</label>
-                            <textarea id="message" rows="3" placeholder="I'm all ears"></textarea>
+                            <textarea id="message" rows="3" placeholder="I'm all ears" name="message"></textarea>
                         </div>
                         <div class="contact-submit">
                             <button class="submit-button">
