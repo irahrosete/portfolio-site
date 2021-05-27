@@ -31,6 +31,7 @@
             });
         }
     </script>
+
 </head>
 <body>
     <nav class="nav-header" role="navigation" aria-label="main menu">
@@ -83,6 +84,7 @@
                             <button class="submit-button">
                                 SEND MESSAGE
                             </button>
+                            <p id="confirmation" hidden>Thanks for your message!</p>
                         </div>
                     </form>
                 </div>
@@ -93,5 +95,18 @@
     <footer>
         &#169 2021 Irah Rosete. All rights reserved.
     </footer>
+    <script>
+        const form = document.getElementById('contact-form')
+        const confirmation = document.getElementById('confirmation')
+        console.log(form)
+        console.log(confirmation)
+
+        const submit = (event) => {
+            confirmation.removeAttribute('hidden')
+            event.preventDefault()
+        }
+        form.onsubmit = submit
+
+    </script>
 </body>
 </html>

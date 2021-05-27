@@ -879,6 +879,10 @@ footer {
   transform: translateY(1.5px);
 }
 
+#confirmation {
+  align-self: center;
+}
+
 @media only screen and (min-width: 600px) {
   .contact-content {
     display: flex;

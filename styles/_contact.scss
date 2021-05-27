@@ -58,6 +58,10 @@
     transform: translateY(1.5px);
 }
 
+#confirmation {
+    align-self: center;
+}
+
 // breakpoint for tablet-size screens
 @media only screen and (min-width: $tablet-size) {
     .contact-content {
