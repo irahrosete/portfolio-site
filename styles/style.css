@@ -122,6 +122,10 @@ footer {
   font-weight: 600;
 }
 
+.page-header {
+  font-weight: 400;
+}
+
 .menu-toggle {
   display: inline-block;
   position: relative;
@@ -398,22 +402,20 @@ footer {
   width: 80vw;
   height: 300px;
   border: #888888 solid 1px;
-  box-shadow: 5px 5px 5px #888888;
   border-radius: 6px;
 }
 
 .work-card__image {
   width: 80vw;
   height: 150px;
-  object-fit: cover;
   box-sizing: border-box;
   border-bottom: #888888 solid 1px;
   border-radius: 6px;
-  filter: grayscale(50%);
+  filter: grayscale(0%);
 }
 
 .work-card__image:hover {
-  filter: grayscale(0%);
+  filter: grayscale(50%);
 }
 
 .work-card__text {
@@ -503,7 +505,6 @@ footer {
   .work-card {
     width: 400px;
     height: 400px;
-    box-shadow: 7.5px 7.5px 7.5px #888888;
   }
 
   .work-card__image {
