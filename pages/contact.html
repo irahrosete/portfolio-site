@@ -81,7 +81,7 @@
                             <textarea id="message" rows="3" placeholder="I'm all ears" name="message"></textarea>
                         </div>
                         <div class="contact-submit">
-                            <button class="submit-button">
+                            <button class="submit-button" onclick="resetForm()">
                                 SEND MESSAGE
                             </button>
                             <p id="confirmation" hidden>Thanks for your message!</p>
@@ -101,10 +101,14 @@
 
         const submit = (event) => {
             confirmation.removeAttribute('hidden')
-            document.forms.contact.reset()
             event.preventDefault()
         }
         form.onsubmit = submit
+
+        const resetForm = () => {
+            setTimeout(() => {document.forms.contact.reset()}, 500)
+        }
+
 
     </script>
 </body>
