@@ -10,6 +10,8 @@
     <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
     <link rel="stylesheet" href="../styles/style.css" />
     <title>Irah Rosete - contact</title>
+
+    <!-- set emailJS to receive email -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
     (function() {
@@ -20,8 +22,6 @@
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                // these IDs from the previous steps
                 emailjs.sendForm('service_w47uayp', 'template_85xeoni', this)
                     .then(function() {
                         console.log('SUCCESS!');
@@ -70,15 +70,15 @@
                     <form id="contact-form" name="contact">
                         <div class="contact-name">
                             <label for="name">NAME</label>
-                            <input type="text" id="name" placeholder="Type your name here" name="name"></input>
+                            <input type="text" id="name" placeholder="Type your name here" name="name" required></input>
                         </div>
                         <div class="contact-email">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" placeholder="And your email" name="email">
+                            <input type="email" id="email" placeholder="And your email" name="email" required>
                         </div>
                         <div class="contact-message">
                             <label for="message">MESSAGE</label>
-                            <textarea id="message" rows="3" placeholder="I'm all ears" name="message"></textarea>
+                            <textarea id="message" rows="3" placeholder="I'm all ears" name="message" required></textarea>
                         </div>
                         <div class="contact-submit">
                             <button class="submit-button" onclick="resetForm()">
@@ -108,7 +108,6 @@
         const resetForm = () => {
             setTimeout(() => {document.forms.contact.reset()}, 500)
         }
-
     </script>
 </body>
 </html>
