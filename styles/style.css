@@ -454,6 +454,12 @@ footer {
   margin-top: 5vh;
 }
 
+.tech-icon {
+  position: absolute;
+  float: left;
+  filter: grayscale(50%);
+}
+
 .back-to-work {
   padding: 0.5vh;
   border-radius: 6px;

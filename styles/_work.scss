@@ -57,6 +57,12 @@
     margin-top: 5vh;
 }
 
+.tech-icon {
+    position: absolute;
+    float: left;
+    filter: grayscale(50%);
+}
+
 // this is to make buttons consistent across pages
 .back-to-work {
     padding: 0.5vh;
