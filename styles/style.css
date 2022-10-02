@@ -214,8 +214,8 @@ footer {
   }
 
   .nav-header__logo {
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
   }
 
   .github, .twitter, .linkedin, .instagram {
@@ -237,8 +237,8 @@ footer {
   }
 
   .nav-header__logo {
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
   }
 
   .github, .twitter, .linkedin, .instagram {
@@ -439,8 +439,8 @@ footer {
 }
 
 .work-card__link img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   float: right;
 }
 
