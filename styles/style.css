@@ -411,7 +411,7 @@ footer {
   box-sizing: border-box;
   border-bottom: #888888 solid 1px;
   border-radius: 6px;
-  filter: grayscale(50%);
+  filter: grayscale(35%);
 }
 
 .work-card__image:hover {
