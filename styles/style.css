@@ -10,7 +10,7 @@ body {
   padding-left: 3vw;
   padding-right: 3vw;
   display: grid;
-  grid-template-columns: 0.2fr 0.2fr 0.2fr max-content max-content 0.2fr;
+  grid-template-columns: 0.2fr 0.2fr 0.11fr max-content max-content 0.2fr;
   grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
   margin-top: 15vh;
 }
@@ -23,13 +23,14 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   margin: 0;
+  line-height: 100%;
 }
 
 .hero-p {
   grid-column: 4/5;
   grid-row: 3/4;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
@@ -37,6 +38,7 @@ body {
   grid-column: 5/6;
   grid-row: 2/5;
   width: 65vw;
+  margin-left: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,11 +59,11 @@ footer {
 
 @media only screen and (min-width: 600px) {
   .hero-header {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .hero-p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   footer {
@@ -70,16 +72,16 @@ footer {
 }
 @media only screen and (min-width: 1024px) {
   .hero-header {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
   }
 
   .hero-p {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 
   .hero-image {
-    height: 800px;
-    width: 627px;
+    height: 640px;
+    width: 510px;
   }
 
   footer {
@@ -252,7 +254,7 @@ footer {
   }
   .menu li {
     padding-left: 35px;
-    font-size: 32px;
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -271,7 +273,7 @@ footer {
   }
 
   .menu li {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 .about {
