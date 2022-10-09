@@ -202,7 +202,7 @@ footer {
   transition: transform 0.5s ease-in;
 }
 .menu li {
-  padding: 10px 0 10px 35px;
+  padding: 10px 0 10px 40px;
   font-size: 22px;
 }
 
@@ -249,11 +249,11 @@ footer {
   }
 
   .menu {
-    width: 180px;
+    width: 150px;
     left: -30px;
   }
   .menu li {
-    padding-left: 35px;
+    padding-left: 50px;
     font-size: 25px;
   }
 }
@@ -391,6 +391,7 @@ footer {
 }
 .work {
   margin: 20vh 10vw 10vh;
+  justify-content: center;
 }
 .work h1 {
   text-align: center;
@@ -423,7 +424,7 @@ footer {
 .work-card__text {
   width: 80vw;
   height: 150px;
-  padding: 20px 20px 10px;
+  padding: 15px 15px 10px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -434,6 +435,8 @@ footer {
   text-transform: uppercase;
   display: inline;
   font-size: 1.25rem;
+  height: 100%;
+  margin-bottom: 0%;
 }
 
 .work-card__description {
@@ -530,8 +533,8 @@ footer {
   }
 
   .work-card__link img {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
   }
 
   .work-entry {
@@ -577,8 +580,8 @@ footer {
   }
 
   .work-card__link img {
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
   }
 
   .work-entry {
