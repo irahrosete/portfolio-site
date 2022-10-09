@@ -202,7 +202,7 @@ footer {
   transition: transform 0.5s ease-in;
 }
 .menu li {
-  padding: 10px 0 10px 35px;
+  padding: 10px 0 10px 40px;
   font-size: 22px;
 }
 
@@ -249,11 +249,11 @@ footer {
   }
 
   .menu {
-    width: 180px;
+    width: 150px;
     left: -30px;
   }
   .menu li {
-    padding-left: 35px;
+    padding-left: 50px;
     font-size: 25px;
   }
 }
