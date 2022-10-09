@@ -10,7 +10,7 @@
 }
 .work-card {
     width: 80vw;
-    height: 300px;
+    height: 310px;
     border: $light-grey solid 1px;
     // box-shadow: 5px 5px 5px $light-grey;
     border-radius: 6px;
@@ -29,8 +29,8 @@
 }
 .work-card__text {
     width: 80vw;
-    height: 150px;
-    padding: 15px 15px 10px;
+    height: 160px;
+    padding: 5% 15px 10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -45,6 +45,8 @@
 }
 .work-card__description {
     overflow: hidden;
+    height: 100%;
+    margin-top: 2%;
 }
 .work-card__link img {
     width: 20px;
@@ -112,16 +114,16 @@
         }
     }
     .work-card {
-        width: 400px;
-        height: 400px;
+        width: 420px;
+        height: 420px;
     }
     .work-card__image {
-        width: 400px;
+        width: 420px;
         height: 200px;
     }
     .work-card__text {
-        width: 400px;
-        height: 200px;
+        width: 420px;
+        height: 220px;
     }
     .work-card__title h1 {
         font-size: 1.75rem;
@@ -154,23 +156,23 @@
         margin: 30px 15px 15px;
     }
     .work-card {
-        width: 500px;
-        height: 500px;
+        width: 515px;
+        height: 515px;
     }
     .work-card__image {
-        width: 500px;
+        width: 515px;
         height: 250px;
     }
     .work-card__text {
-        width: 500px;
-        height: 250px;
+        width: 515px;
+        height: 265px;
     }
     .work-card__title h1 {
         font-size: 2rem;
     }
     .work-card__link img {
-        width: 38px;
-        height: 38px;
+        width: 35px;
+        height: 35px;
     }
     .work-entry {
         font-size: 1.5rem;
