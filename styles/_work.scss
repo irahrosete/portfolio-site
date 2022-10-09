@@ -1,5 +1,6 @@
 .work {
     margin: 20vh 10vw 10vh;
+    justify-content: center;
     h1 {
         text-align: center;
     }
@@ -29,7 +30,7 @@
 .work-card__text {
     width: 80vw;
     height: 150px;
-    padding: 20px 20px 10px;
+    padding: 15px 15px 10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -39,6 +40,8 @@
     text-transform: uppercase;
     display: inline;
     font-size: 1.25rem;
+    height: 100%;
+    margin-bottom: 0%;
 }
 .work-card__description {
     overflow: hidden;
@@ -124,8 +127,8 @@
         font-size: 1.75rem;
     }
     .work-card__link img {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
     }
     .work-entry {
         font-size: 1.25rem;
@@ -166,8 +169,8 @@
         font-size: 2rem;
     }
     .work-card__link img {
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 38px;
     }
     .work-entry {
         font-size: 1.5rem;
