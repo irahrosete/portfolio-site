@@ -386,7 +386,7 @@ footer {
 
 .work-card {
   width: 80vw;
-  height: 360px;
+  height: 380px;
   border: #888888 solid 1px;
   border-radius: 6px;
 }
@@ -406,7 +406,7 @@ footer {
 
 .work-card__text {
   width: 80vw;
-  height: 160px;
+  height: 180px;
   padding: 5% 15px 10px;
   display: flex;
   flex-direction: column;
