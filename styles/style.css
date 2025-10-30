@@ -81,7 +81,7 @@ footer {
   }
 }
 .nav-header {
-  height: 15vh;
+  height: 12vh;
   padding: 2.5vh 3vw 2.5vh 3vw;
   font-family: "Rajdhani", sans-serif;
   position: fixed;
@@ -381,19 +381,19 @@ footer {
 }
 
 .work-wrapper {
-  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .work-card {
   width: 80vw;
-  height: 310px;
+  height: 360px;
   border: #888888 solid 1px;
   border-radius: 6px;
 }
 
 .work-card__image {
   width: 80vw;
-  height: 150px;
+  height: 200px;
   box-sizing: border-box;
   border-bottom: #888888 solid 1px;
   border-radius: 6px;
@@ -499,11 +499,11 @@ footer {
   }
   .work-card {
     width: 420px;
-    height: 420px;
+    height: 470px;
   }
   .work-card__image {
     width: 420px;
-    height: 200px;
+    height: 250px;
   }
   .work-card__text {
     width: 420px;
@@ -532,18 +532,18 @@ footer {
   .work h1 {
     display: inline-block;
     width: 100%;
-    margin: 0;
+    margin-top: 0;
   }
   .work-wrapper {
-    margin: 30px 15px 15px;
+    margin: 0px 15px 60px 15px;
   }
   .work-card {
     width: 515px;
-    height: 515px;
+    height: 615px;
   }
   .work-card__image {
     width: 515px;
-    height: 250px;
+    height: 350px;
   }
   .work-card__text {
     width: 515px;
