@@ -381,7 +381,7 @@ footer {
 }
 
 .work-wrapper {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .work-card {
@@ -535,7 +535,7 @@ footer {
     margin-top: 0;
   }
   .work-wrapper {
-    margin: 0px 15px 60px 15px;
+    margin: 0px 15px 40px 15px;
   }
   .work-card {
     width: 515px;
@@ -790,6 +790,7 @@ footer {
 .contact-content {
   margin-top: 20vh;
   margin-bottom: 10vh;
+  height: 70vh;
 }
 
 .contact {
@@ -812,7 +813,7 @@ footer {
 }
 
 #contact-form {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 #contact-form div {
   display: flex;
@@ -833,6 +834,7 @@ footer {
   border-radius: 6px;
   box-sizing: border-box;
   border: none;
+  margin-top: 2rem;
   padding: 0.5vh;
   display: inline-block;
   width: 130px;
@@ -857,6 +859,7 @@ footer {
 
 @media only screen and (min-width: 600px) {
   .contact-content {
+    height: 70vh;
     display: flex;
     font-size: 1.2rem;
   }
@@ -880,6 +883,7 @@ footer {
     margin: 0 5vw 10vh;
   }
   .contact-content {
+    height: 70vh;
     display: flex;
     font-size: 1.5rem;
   }
