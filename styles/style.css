@@ -260,7 +260,7 @@ footer {
   }
 }
 .about {
-  margin: 20vh 10vw 10vh;
+  margin: 15vh 10vw 10vh;
   display: flex;
   flex-direction: column;
 }
@@ -373,7 +373,7 @@ footer {
   }
 }
 .work {
-  margin: 20vh 10vw 10vh;
+  margin: 15vh 10vw 10vh;
   justify-content: center;
 }
 .work h1 {
@@ -788,7 +788,7 @@ footer {
   }
 }
 .contact-content {
-  margin-top: 20vh;
+  margin-top: 15vh;
   margin-bottom: 10vh;
   height: 70vh;
 }
