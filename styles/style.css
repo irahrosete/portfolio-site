@@ -47,25 +47,20 @@ body {
 
 footer {
   font-size: 0.75rem;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  text-align: end;
+  text-align: center;
   width: 100%;
-  padding: 5px 5px;
-  background-color: #ededed;
-  color: #3f4244;
+  margin-bottom: 1rem;
+  background-color: #3f4244;
+  color: #ededed;
 }
 
 @media only screen and (min-width: 600px) {
   .hero-header {
     font-size: 5rem;
   }
-
   .hero-p {
     font-size: 1.5rem;
   }
-
   footer {
     font-size: 0.85rem;
   }
@@ -74,16 +69,13 @@ footer {
   .hero-header {
     font-size: 6.5rem;
   }
-
   .hero-p {
     font-size: 2.3rem;
   }
-
   .hero-image {
     height: 640px;
     width: 510px;
   }
-
   footer {
     font-size: 1rem;
   }
@@ -120,19 +112,19 @@ footer {
 
 .page-title {
   display: inline;
-  font-size: 2rem;
-  font-weight: 600;
 }
 
 .page-header {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .menu-toggle {
   display: inline-block;
   position: relative;
   z-index: 1;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .menu-toggle a {
   text-decoration: none;
@@ -212,19 +204,16 @@ footer {
 
 @media only screen and (min-width: 600px) {
   .page-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
-
   .nav-header__logo {
     height: 45px;
     width: 45px;
   }
-
   .github, .twitter, .linkedin, .instagram {
     width: 42px;
     height: 42px;
   }
-
   .menu {
     width: 130px;
   }
@@ -235,19 +224,16 @@ footer {
 }
 @media only screen and (min-width: 1024px) {
   .page-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-
   .nav-header__logo {
     height: 55px;
     width: 55px;
   }
-
   .github, .twitter, .linkedin, .instagram {
     width: 48px;
     height: 48px;
   }
-
   .menu {
     width: 150px;
     left: -30px;
@@ -259,19 +245,16 @@ footer {
 }
 @media only screen and (max-width: 400px) {
   .page-title {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
-
   .nav-header__logo {
     height: 35px;
     width: 35px;
   }
-
   .github, .twitter, .linkedin, .instagram {
     width: 32px;
     height: 32px;
   }
-
   .menu li {
     font-size: 20px;
   }
@@ -514,31 +497,25 @@ footer {
     width: 100%;
     margin-top: 0;
   }
-
   .work-card {
     width: 420px;
     height: 420px;
   }
-
   .work-card__image {
     width: 420px;
     height: 200px;
   }
-
   .work-card__text {
     width: 420px;
     height: 220px;
   }
-
   .work-card__title h1 {
     font-size: 1.75rem;
   }
-
   .work-card__link img {
     width: 30px;
     height: 30px;
   }
-
   .work-entry {
     font-size: 1.25rem;
   }
@@ -557,41 +534,33 @@ footer {
     width: 100%;
     margin: 0;
   }
-
   .work-wrapper {
     margin: 30px 15px 15px;
   }
-
   .work-card {
     width: 515px;
     height: 515px;
   }
-
   .work-card__image {
     width: 515px;
     height: 250px;
   }
-
   .work-card__text {
     width: 515px;
     height: 265px;
   }
-
   .work-card__title h1 {
     font-size: 2rem;
   }
-
   .work-card__link img {
     width: 35px;
     height: 35px;
   }
-
   .work-entry {
     font-size: 1.5rem;
     margin-left: 32.5vw;
     margin-right: 32.5vw;
   }
-
   .work-entry__image {
     width: 35vw;
     height: auto;
@@ -624,7 +593,8 @@ footer {
 .blog-card__image {
   width: 80vw;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   box-sizing: border-box;
   border-bottom: #888888 solid 1px;
   border-radius: 6px;
@@ -748,27 +718,22 @@ footer {
   .blog, .blog-entry {
     font-size: 1.25rem;
   }
-
   .blog-card {
     width: 80vw;
     height: 600px;
     box-shadow: 7.5px 7.5px 7.5px #888888;
   }
-
   .blog-card__image {
     width: 80vw;
     height: 300px;
   }
-
   .blog-card__text {
     width: 80vw;
     height: 300px;
   }
-
   .blog-card__title h1 {
     font-size: 1.75rem;
   }
-
   .blog-card__description {
     margin-bottom: 2.25rem;
   }
@@ -787,34 +752,27 @@ footer {
     width: 100%;
     margin: 0;
   }
-
   .blog-card {
     width: 500px;
     height: 700px;
   }
-
   .blog-card__image {
     width: 500px;
     height: 300px;
   }
-
   .blog-card__text {
     width: 500px;
     height: 400px;
   }
-
   .blog-card__title h1 {
     font-size: 2rem;
   }
-
   .blog-card__description {
     margin-bottom: 2.5rem;
   }
-
   .blog-card__link {
     width: 140px;
   }
-
   .blog-entry {
     font-size: 1.5rem;
     margin-left: 10vw;
@@ -902,20 +860,17 @@ footer {
     display: flex;
     font-size: 1.2rem;
   }
-
   .contact-container {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
   }
-
   .contact-p p {
     display: flex;
     width: 60vw;
     box-sizing: border-box;
     padding: 20px;
   }
-
   .submit-button {
     width: 150px;
   }
@@ -924,18 +879,15 @@ footer {
   .contact {
     margin: 0 5vw 10vh;
   }
-
   .contact-content {
     display: flex;
     font-size: 1.5rem;
   }
-
   .contact-container {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
   }
-
   .contact-p p {
     display: flex;
     text-align: center;
@@ -943,7 +895,6 @@ footer {
     box-sizing: border-box;
     padding: 30px;
   }
-
   .submit-button {
     width: 170px;
   }
@@ -952,6 +903,4 @@ footer {
   .contact-p p {
     width: 35vw;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

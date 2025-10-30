@@ -42,14 +42,11 @@ body {
 }
 footer {
     font-size: 0.75rem;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: end;
+    text-align: center;
     width: 100%;
-    padding: 5px 5px;
-    background-color: $off-white;
-    color: $dark-grey;
+    margin-bottom: 1rem;
+    background-color: $dark-grey;
+    color: $off-white;
 }
 
 // breakpoint for tablet-size screens

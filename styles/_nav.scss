@@ -26,12 +26,10 @@
 }
 .page-title {
     display: inline;
-    font-size: 2rem;
-    font-weight: 600;
 }
 
 .page-header {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 // hamburger menu
@@ -128,7 +126,7 @@
 // breakpoint for tablet-size screens
 @media only screen and (min-width: $tablet-size) {
     .page-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .nav-header__logo {
     height: 45px;
@@ -150,7 +148,7 @@
 // breakpoint for medium-size screens
 @media only screen and (min-width: $medium-screen-size) {
     .page-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .nav-header__logo {
         height: 55px;
@@ -173,7 +171,7 @@
 // breakpoint for smaller-size screens
 @media only screen and (max-width: $smaller-screen-size) {
     .page-title {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     .nav-header__logo {
         height: 35px;
