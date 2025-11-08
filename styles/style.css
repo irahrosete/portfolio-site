@@ -1,5 +1,5 @@
 body {
-  background-color: #3f4244;
+  background-color: #303132;
   color: #ffffff;
   font-family: "Rajdhani", sans-serif;
 }
@@ -50,7 +50,7 @@ footer {
   text-align: center;
   width: 100%;
   margin-bottom: 1rem;
-  background-color: #3f4244;
+  background-color: #303132;
   color: #ededed;
 }
 
@@ -86,7 +86,7 @@ footer {
   font-family: "Rajdhani", sans-serif;
   position: fixed;
   z-index: 1;
-  background-color: #3f4244;
+  background-color: #303132;
   top: 0;
   width: 100%;
   box-sizing: border-box;
@@ -128,7 +128,7 @@ footer {
 }
 .menu-toggle a {
   text-decoration: none;
-  color: #3f4244;
+  color: #303132;
 }
 .menu-toggle a:hover {
   font-weight: 600;
@@ -287,19 +287,19 @@ footer {
   margin-bottom: 0;
 }
 
-.here:link {
+.about-link:link {
   text-decoration: none;
   color: #5888b4;
   font-weight: 600;
 }
 
-.here:visited {
+.about-link:visited {
   text-decoration: none;
   color: #5888b4;
   font-weight: 600;
 }
 
-.here:hover {
+.about-link:hover {
   text-decoration: none;
   color: #ffffff;
 }
@@ -347,7 +347,7 @@ footer {
 }
 .resume a:visited:hover {
   text-decoration: none;
-  color: #3f4244;
+  color: #303132;
 }
 
 @media only screen and (min-width: 600px) {
@@ -388,6 +388,7 @@ footer {
   width: 80vw;
   height: 380px;
   border: #888888 solid 1px;
+  background-color: #414446;
   border-radius: 6px;
 }
 
@@ -450,6 +451,10 @@ footer {
   filter: grayscale(60%);
 }
 
+.tech-icon a img {
+  padding-right: 3px;
+}
+
 .back-to-work {
   padding: 0.5vh;
   border-radius: 6px;
@@ -476,7 +481,7 @@ footer {
 
 .back-to-work a:visited:hover {
   text-decoration: none;
-  color: #3f4244;
+  color: #303132;
 }
 
 .back-to-work:active {
@@ -662,7 +667,7 @@ footer {
 
 .blog-link:visited:hover {
   text-decoration: none;
-  color: #3f4244;
+  color: #303132;
 }
 
 .blog-card__link:active {
@@ -707,7 +712,7 @@ footer {
 
 .back-to-blog a:visited:hover {
   text-decoration: none;
-  color: #3f4244;
+  color: #303132;
 }
 
 .back-to-blog:active {
@@ -808,7 +813,7 @@ footer {
   background-color: #ededed;
   border-radius: 6px;
   border-top: 6px solid #5888b4;
-  color: #3f4244;
+  color: #303132;
   padding: 15px;
 }
 

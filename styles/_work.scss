@@ -12,6 +12,7 @@
     width: 80vw;
     height: 380px;
     border: $light-grey solid 1px;
+    background-color: $mid-grey;
     // box-shadow: 5px 5px 5px $light-grey;
     border-radius: 6px;
 }
@@ -66,6 +67,10 @@
     position: absolute;
     float: left;
     filter: grayscale(60%);
+}
+
+.tech-icon a img {
+  padding-right: 3px;
 }
 
 // this is to make buttons consistent across pages
